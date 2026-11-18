@@ -1,0 +1,9 @@
+2026-11-17T18:10:01.112Z INFO  [payments-api-7f8b9c6d4-x2k9p] Starting payments-api service v2.4.1 on :8080
+2026-11-17T18:10:02.304Z INFO  [payments-api-7f8b9c6d4-x2k9p] Connecting to postgres.prod.svc.cluster.local:5432
+2026-11-17T18:10:07.305Z WARN  [payments-api-7f8b9c6d4-x2k9p] Database connection attempt 1 failed: dial tcp 10.96.44.18:5432: i/o timeout
+2026-11-17T18:10:12.308Z ERROR [payments-api-7f8b9c6d4-x2k9p] Failed to initialize connection pool: context deadline exceeded
+2026-11-17T18:10:15.000Z WARN  [kubelet/node-pool-1a] Readiness probe failed: HTTP probe failed with statuscode: 503
+2026-11-17T18:10:20.412Z WARN  [payments-api-7f8b9c6d4-x2k9p] In-memory retry queue buffer exceeded 490MB (limit 512MB)
+2026-11-17T18:10:23.889Z FATAL [payments-api-7f8b9c6d4-x2k9p] runtime: out of memory: cannot allocate 67108864-byte block
+2026-11-17T18:10:24.102Z ERROR [kubelet/node-pool-1a] Container payments-api in pod payments-api-7f8b9c6d4-x2k9p_prod terminated with exit code 137 (reason: OOMKilled)
+2026-11-17T18:10:25.500Z WARN  [kubelet/node-pool-1a] Back-off restarting failed container payments-api in pod payments-api-7f8b9c6d4-x2k9p_prod (CrashLoopBackOff)

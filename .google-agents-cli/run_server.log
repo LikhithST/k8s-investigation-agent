@@ -1,0 +1,28 @@
+=== Starting server at 2026-11-18T09:02:28.871038+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 227738 ===
+=== Starting server at 2026-11-18T09:03:39.352232+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 229529 ===
+=== Starting server at 2026-11-18T09:04:04.483185+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 230998 ===
+=== Starting server at 2026-11-18T09:06:10.335838+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 233926 ===
+=== Starting server at 2026-11-18T09:06:38.646212+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 234652 ===
+=== Starting server at 2026-11-18T09:10:03.393601+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 238459 ===
+=== Starting server at 2026-11-18T09:19:48.673890+00:00 ===
+Command: go run . web --port 18080 --write-timeout 10m api -path_prefix / a2a appinfo
+CWD: /home/likhith/Documents/agent-development/k8s-investigation-agent
+=== Started server process 250108 ===
